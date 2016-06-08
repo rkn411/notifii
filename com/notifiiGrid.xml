@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Native Apps Suites" parallel="tests">
+ 
+  <test name="">
+      <parameter name="udid" value=""/>
+      <parameter name="bundleid" value=""/>
+      
+      <classes>
+         <class name=".AppiumGrid"/>        
+     </classes>
+  </test>
+
+<test name="">
+      <parameter name="udid" value=""/>
+      <parameter name="" value=""/>
+     
+      <classes>
+         <class name=".AppiumGrid"/>
+                  
+     </classes>
+  </test>
+    
+</suite>
+
