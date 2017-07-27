@@ -32,11 +32,11 @@ public class Packagelogin {
 		
 		capabilities.setCapability("platformVersion","9.3.1");
 		capabilities.setCapability("platformName","iOS");
-		capabilities.setCapability("udid","316d3ef3fc61a092af227ef0cc8bba35ce6a088f");
+		capabilities.setCapability("udid","*******************27ef0cc8bba35ce6a088f");
 		capabilities.setCapability("autoLaunch",true);
 		capabilities.setCapability("autoAcceptAlerts", true);
 				//test app bundleid
-		capabilities.setCapability("bundleId","com.notifii.notifii");  
+		capabilities.setCapability("bundleId","******************");  
 		//server ip and port address//
 		driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
